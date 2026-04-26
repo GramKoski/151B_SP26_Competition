@@ -1,0 +1,17 @@
+python dist_infer_process_public.py --gpu-id 0 --chunk-id 0 --num-chunks 8 &
+python dist_infer_process_public.py --gpu-id 1 --chunk-id 1 --num-chunks 8 &
+python dist_infer_process_public.py --gpu-id 2 --chunk-id 2 --num-chunks 8 &
+python dist_infer_process_public.py --gpu-id 3 --chunk-id 3 --num-chunks 8 &
+python dist_infer_process_public.py --gpu-id 4 --chunk-id 4 --num-chunks 8 &
+python dist_infer_process_public.py --gpu-id 5 --chunk-id 5 --num-chunks 8 &
+python dist_infer_process_public.py --gpu-id 6 --chunk-id 6 --num-chunks 8 &
+python dist_infer_process_public.py --gpu-id 7 --chunk-id 7 --num-chunks 8
+
+python dist_infer_process_private.py --gpu-id 0 --chunk-id 0 --num-chunks 8 &
+python dist_infer_process_private.py --gpu-id 1 --chunk-id 1 --num-chunks 8 &
+python dist_infer_process_private.py --gpu-id 2 --chunk-id 2 --num-chunks 8 &
+python dist_infer_process_private.py --gpu-id 3 --chunk-id 3 --num-chunks 8 &
+python dist_infer_process_private.py --gpu-id 4 --chunk-id 4 --num-chunks 8 &
+python dist_infer_process_private.py --gpu-id 5 --chunk-id 5 --num-chunks 8 &
+python dist_infer_process_private.py --gpu-id 6 --chunk-id 6 --num-chunks 8 &
+python dist_infer_process_private.py --gpu-id 7 --chunk-id 7 --num-chunks 8
